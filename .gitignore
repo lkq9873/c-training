@@ -1,0 +1,38 @@
+# ==========================================================
+# 会社の研修資料（社内資料のため公開しない）
+# ==========================================================
+c-advanced/textbook.md
+docs/
+
+# ==========================================================
+# ビルド成果物・実行時に生成されるファイル
+# ==========================================================
+*.o
+*.out
+*.exe
+task14_fifo
+task15_socket
+
+# 拡張子なしの実行形式（task3, task14_send など）
+c-advanced/task3
+c-advanced/task4
+c-advanced/task5
+c-advanced/task6
+c-advanced/task7
+c-advanced/task8
+c-advanced/task9
+c-advanced/task10
+c-advanced/task11
+c-advanced/task12
+c-advanced/task13
+c-advanced/task14_receive
+c-advanced/task14_send
+c-advanced/task15_client
+c-advanced/task15_server
+c-advanced/task16_client
+c-advanced/task16_server
+
+# ==========================================================
+# ツールのローカル設定
+# ==========================================================
+.claude/settings.local.json

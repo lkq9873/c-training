@@ -1,0 +1,821 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6" pages="3">
+  <diagram name="main" id="task13-page-0">
+    <mxGraphModel dx="1312" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="root-0" />
+        <mxCell id="layer-0" parent="root-0" />
+        <mxCell id="t16s-main-1" parent="layer-0" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="220" width="740" x="-800" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-2" parent="t16s-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="45" width="740" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-3" parent="t16s-main-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="関数名" vertex="1">
+          <mxGeometry height="45" width="100" as="geometry">
+            <mxRectangle height="45" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-4" parent="t16s-main-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="main" vertex="1">
+          <mxGeometry height="45" width="640" x="100" as="geometry">
+            <mxRectangle height="45" width="640" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-5" parent="t16s-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="740" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-6" parent="t16s-main-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="引数" vertex="1">
+          <mxGeometry height="40" width="100" as="geometry">
+            <mxRectangle height="40" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-7" parent="t16s-main-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="なし" vertex="1">
+          <mxGeometry height="40" width="640" x="100" as="geometry">
+            <mxRectangle height="40" width="640" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-8" parent="t16s-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="75" width="740" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-9" parent="t16s-main-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="戻り値" vertex="1">
+          <mxGeometry height="75" width="100" as="geometry">
+            <mxRectangle height="75" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-10" parent="t16s-main-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="int&lt;br&gt;EXIT_SUCCESS：クライアントとの通信に成功した場合&lt;br&gt;EXIT_FAILURE：システムコールでエラーが発生した場合" vertex="1">
+          <mxGeometry height="75" width="640" x="100" as="geometry">
+            <mxRectangle height="75" width="640" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-11" parent="t16s-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="740" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-12" parent="t16s-main-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="機能概要&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="100" as="geometry">
+            <mxRectangle height="60" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-13" parent="t16s-main-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ソケットを作成して名前をつけ、接続要求の受け入れ準備を行った後、&lt;br&gt;クライアントとの通信処理を呼び出し、ソケットをクローズする" vertex="1">
+          <mxGeometry height="60" width="640" x="100" as="geometry">
+            <mxRectangle height="60" width="640" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-14" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="-610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-15" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="サーバーのアドレス情報格納用の&lt;br&gt;struct sockaddr_in型変数&lt;br&gt;st_serverAddressを定義する" vertex="1">
+          <mxGeometry height="80" width="340" x="-730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-16" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="ソケットのファイル記述子格納用のS4型変数&lt;br&gt;s4_socketDescriptorを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-17" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="bindシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_bindResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-18" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="listenシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_listenResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-19" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="closeシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_closeResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-20" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="プロセス終了ステータス格納用のS4型変数&lt;br&gt;s4_exitStatusを定義し、EXIT_SUCCESSを代入する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-21" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="-595" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-29" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="25" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-30" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="PF_INET、SOCK_STREAM、SOCKET_PROTOCOLを&lt;br&gt;引数に指定してsocketシステムコールを呼び出し、&lt;br&gt;戻り値をs4_socketDescriptorに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-31" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_socketDescriptorは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-32" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="st_serverAddressのアドレス、0、&lt;br&gt;sizeof(st_serverAddress)を引数に指定して&lt;br&gt;memset関数を呼び出す" vertex="1">
+          <mxGeometry height="80" width="340" x="-110" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-33" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="st_serverAddress.sin_familyに&lt;br&gt;PF_INETを代入する" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-34" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="SERVER_PORTを引数に指定してhtons関数を呼び出し、&lt;br&gt;戻り値をst_serverAddress.sin_portに代入する" vertex="1">
+          <mxGeometry height="70" width="340" x="-110" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-35" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="INADDR_ANYを引数に指定してhtonl関数を呼び出し、&lt;br&gt;戻り値をst_serverAddress.sin_addr.s_addrに&lt;br&gt;代入する" vertex="1">
+          <mxGeometry height="80" width="340" x="-110" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-39" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、st_serverAddressのアドレス、&lt;br&gt;sizeof(st_serverAddress)を引数に指定して&lt;br&gt;bindシステムコールを呼び出し、&lt;br&gt;戻り値をs4_bindResultに代入する" vertex="1">
+          <mxGeometry height="100" width="340" x="-110" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-40" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_bindResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-41" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、LISTEN_BACKLOGを&lt;br&gt;引数に指定してlistenシステムコールを呼び出し、&lt;br&gt;戻り値をs4_listenResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-42" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_listenResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-43" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptorを引数に指定して&lt;br&gt;s4_CommunicateWithClient関数を呼び出し、&lt;br&gt;戻り値をs4_exitStatusに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="1505" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-44" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor&amp;nbsp;を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_closeResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="1665" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-45" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_closeResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1795" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-46" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="1935" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-47" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_exitStatusを返す" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-48" parent="layer-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="10" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-52" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="527.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-56" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1187.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-59" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1457.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-63" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1887.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-66" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;socket&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="1220" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-67" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_exitStatusにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="1220" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-69" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-72" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;bind&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="820" y="1155" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-73" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_exitStatusにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="820" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-75" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-78" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;listen&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-79" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_exitStatusにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1505" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-81" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-84" parent="layer-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;close&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1855" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-85" parent="layer-0" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_exitStatusにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1935" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-87" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-90" parent="layer-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自ホストのIPアドレスとしてINADDR_ANYを使用する。" vertex="1">
+          <mxGeometry height="70" width="300" x="280" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-22" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-14" target="t16s-main-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-23" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-15" target="t16s-main-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-24" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-16" target="t16s-main-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-25" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-17" target="t16s-main-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-26" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-18" target="t16s-main-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-27" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-19" target="t16s-main-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-28" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-20" target="t16s-main-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-36" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-32" target="t16s-main-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-37" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-33" target="t16s-main-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-38" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-34" target="t16s-main-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-49" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-29" target="t16s-main-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-50" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-30" target="t16s-main-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-51" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-31" target="t16s-main-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-53" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-35" target="t16s-main-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-54" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-39" target="t16s-main-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-55" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-40" target="t16s-main-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-57" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-41" target="t16s-main-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-58" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-42" target="t16s-main-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-60" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-43" target="t16s-main-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-61" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-44" target="t16s-main-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-62" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-45" target="t16s-main-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-64" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-46" target="t16s-main-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-65" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-main-47" target="t16s-main-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-68" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-31" target="t16s-main-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-70" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-66" target="t16s-main-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-71" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-67" target="t16s-main-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="2050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-74" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-40" target="t16s-main-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-76" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-72" target="t16s-main-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-77" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-73" target="t16s-main-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-80" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-42" target="t16s-main-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-82" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-78" target="t16s-main-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-83" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-79" target="t16s-main-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-main-86" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-45" target="t16s-main-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-88" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-84" target="t16s-main-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-main-89" parent="layer-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-main-85" target="t16s-main-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="s4_CommunicateWithClient" id="task13-page-1">
+    <mxGraphModel dx="1312" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="root-1" />
+        <mxCell id="layer-1" parent="root-1" />
+        <mxCell id="t16s-s4_CommunicateWithClient-1" parent="layer-1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="230" width="760" x="-800" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-2" parent="t16s-s4_CommunicateWithClient-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="45" width="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-3" parent="t16s-s4_CommunicateWithClient-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="関数名" vertex="1">
+          <mxGeometry height="45" width="100" as="geometry">
+            <mxRectangle height="45" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-4" parent="t16s-s4_CommunicateWithClient-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="s4_CommunicateWithClient" vertex="1">
+          <mxGeometry height="45" width="660" x="100" as="geometry">
+            <mxRectangle height="45" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-5" parent="t16s-s4_CommunicateWithClient-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="760" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-6" parent="t16s-s4_CommunicateWithClient-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="引数" vertex="1">
+          <mxGeometry height="50" width="100" as="geometry">
+            <mxRectangle height="50" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-7" parent="t16s-s4_CommunicateWithClient-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="S4 s4_socketDescriptor&amp;nbsp;&amp;nbsp;接続要求を待っているソケットのファイル記述子" vertex="1">
+          <mxGeometry height="50" width="660" x="100" as="geometry">
+            <mxRectangle height="50" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-8" parent="t16s-s4_CommunicateWithClient-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="75" width="760" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-9" parent="t16s-s4_CommunicateWithClient-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="戻り値" vertex="1">
+          <mxGeometry height="75" width="100" as="geometry">
+            <mxRectangle height="75" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-10" parent="t16s-s4_CommunicateWithClient-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="S4&lt;br&gt;EXIT_SUCCESS&amp;nbsp;&amp;nbsp;文字列の受信および送信に成功した場合&lt;br&gt;EXIT_FAILURE&amp;nbsp;&amp;nbsp;システムコールでエラーが発生した場合" vertex="1">
+          <mxGeometry height="75" width="660" x="100" as="geometry">
+            <mxRectangle height="75" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-11" parent="t16s-s4_CommunicateWithClient-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="760" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-12" parent="t16s-s4_CommunicateWithClient-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="機能概要&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="100" as="geometry">
+            <mxRectangle height="60" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-13" parent="t16s-s4_CommunicateWithClient-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="クライアントからの接続要求を受け入れ、文字列を受信して表示した後、&lt;br&gt;クライアントへ文字列を送信し、接続用のソケットをクローズする" vertex="1">
+          <mxGeometry height="60" width="660" x="100" as="geometry">
+            <mxRectangle height="60" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-14" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="-610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-15" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="受信文字列格納用のchar型配列&lt;br&gt;ch_receiveBuffer[BUFFER_SIZE]を定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-16" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="接続用ソケットのファイル記述子格納用のS4型変数&lt;br&gt;s4_acceptDescriptorを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-17" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="readシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_readResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-18" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="writeシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_writeResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-19" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="closeシステムコール戻り値格納用のS4型変数&lt;br&gt;s4_closeResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-20" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="関数戻り値格納用のS4型変数&lt;br&gt;s4_returnValueを定義し、EXIT_SUCCESSを代入する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-21" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="-595" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-29" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="25" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-30" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、NULL、NULLを&lt;br&gt;引数に指定してacceptシステムコールを呼び出し、&lt;br&gt;戻り値をs4_acceptDescriptorに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-31" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_acceptDescriptorは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-32" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor、ch_receiveBuffer、&lt;br&gt;BUFFER_SIZEを引数に指定して&lt;br&gt;readシステムコールを呼び出し、&lt;br&gt;戻り値をs4_readResultに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-33" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_readResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-35" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="printf(&quot;サーバーの受信文字列：%s\n&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch_receiveBuffer)" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-36" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor、SEND_MESSAGE、&lt;br&gt;SEND_MESSAGE_BYTEを引数に指定して&lt;br&gt;writeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_writeResultに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-37" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_writeResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-38" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-39" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor&amp;nbsp;を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_closeResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-40" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_closeResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-41" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-42" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueを返す" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-43" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="10" y="2245" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-47" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="527.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-50" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="802.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-55" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1542.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-59" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1932.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-62" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;accept&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="820" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-63" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="820" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-65" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-68" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;read&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="1660" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-69" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="1660" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-71" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-74" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;write&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-75" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-77" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1455" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-80" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;close&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-81" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-83" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1845" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-86" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="クライアントのアドレス情報は使用しないため、第2引数と第3引数にはNULLを指定する。" vertex="1">
+          <mxGeometry height="90" width="300" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-22" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-14" target="t16s-s4_CommunicateWithClient-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-23" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-15" target="t16s-s4_CommunicateWithClient-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-24" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-16" target="t16s-s4_CommunicateWithClient-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-25" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-17" target="t16s-s4_CommunicateWithClient-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-26" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-18" target="t16s-s4_CommunicateWithClient-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-27" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-19" target="t16s-s4_CommunicateWithClient-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-28" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-20" target="t16s-s4_CommunicateWithClient-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-44" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-29" target="t16s-s4_CommunicateWithClient-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-45" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-30" target="t16s-s4_CommunicateWithClient-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-46" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-31" target="t16s-s4_CommunicateWithClient-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-48" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-32" target="t16s-s4_CommunicateWithClient-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-53" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-36" target="t16s-s4_CommunicateWithClient-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-54" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-37" target="t16s-s4_CommunicateWithClient-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-56" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-38" target="t16s-s4_CommunicateWithClient-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-57" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-39" target="t16s-s4_CommunicateWithClient-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-58" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-40" target="t16s-s4_CommunicateWithClient-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-60" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-41" target="t16s-s4_CommunicateWithClient-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-61" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-42" target="t16s-s4_CommunicateWithClient-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-64" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-31" target="t16s-s4_CommunicateWithClient-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-66" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-62" target="t16s-s4_CommunicateWithClient-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-67" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-63" target="t16s-s4_CommunicateWithClient-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="2095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-70" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-33" target="t16s-s4_CommunicateWithClient-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-72" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-68" target="t16s-s4_CommunicateWithClient-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-76" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-37" target="t16s-s4_CommunicateWithClient-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-78" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-74" target="t16s-s4_CommunicateWithClient-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-79" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-75" target="t16s-s4_CommunicateWithClient-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-82" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-40" target="t16s-s4_CommunicateWithClient-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-84" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-80" target="t16s-s4_CommunicateWithClient-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-s4_CommunicateWithClient-85" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-81" target="t16s-s4_CommunicateWithClient-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r16s-nn-1" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_readResultは&lt;br&gt;0と等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-2" parent="layer-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="ch_receiveBuffer[s4_readResult - 1]は&lt;br&gt;'\0'と等しくないか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-3" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16s-s4_CommunicateWithClient-33" target="r16s-nn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-4" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="r16s-nn-1" target="r16s-nn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-5" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="947.25" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-6" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-2" target="t16s-s4_CommunicateWithClient-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-7" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1087.25" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-8" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="printf(&quot;クライアントがソケットをクローズしました\n&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="1260" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-9" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="1260" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-10" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-1" target="r16s-nn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-11" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-12" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-8" target="r16s-nn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-13" parent="layer-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="printf(&quot;受信文字列が終端されていません\n&quot;)" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-14" parent="layer-1" style="rounded=0;whiteSpace=wrap;html=1;" value="s4_returnValueにEXIT_FAILUREを代入する" vertex="1">
+          <mxGeometry height="60" width="280" x="420" y="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-15" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-2" target="r16s-nn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-16" parent="layer-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-17" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-13" target="r16s-nn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-18" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-35" target="t16s-s4_CommunicateWithClient-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r16s-nn-19" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16s-s4_CommunicateWithClient-69" target="t16s-s4_CommunicateWithClient-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r16s-nn-20" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-9" target="t16s-s4_CommunicateWithClient-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r16s-nn-21" parent="layer-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="r16s-nn-14" target="t16s-s4_CommunicateWithClient-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name=" 外部情報" id="task13-page-2">
+    <mxGraphModel dx="1312" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="root-2" />
+        <mxCell id="layer-2" parent="root-2" />
+        <mxCell id="t16s-外部情報-1" parent="layer-2" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="289" width="960" x="-800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-2" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="47" width="960" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-3" parent="t16s-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="マクロ名" vertex="1">
+          <mxGeometry height="47" width="230" as="geometry">
+            <mxRectangle height="47" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-4" parent="t16s-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="値" vertex="1">
+          <mxGeometry height="47" width="260" x="230" as="geometry">
+            <mxRectangle height="47" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-5" parent="t16s-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="意味" vertex="1">
+          <mxGeometry height="47" width="470" x="490" as="geometry">
+            <mxRectangle height="47" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-6" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="960" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-7" parent="t16s-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SERVER_PORT" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-8" parent="t16s-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="49152" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-9" parent="t16s-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="サーバーのポート番号（別途指示される番号に変更すること）" vertex="1">
+          <mxGeometry height="36" width="470" x="490" as="geometry">
+            <mxRectangle height="36" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-10" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="960" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-11" parent="t16s-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SOCKET_PROTOCOL" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-12" parent="t16s-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="0" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-13" parent="t16s-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="UNIXが適切なプロトコルを選択する" vertex="1">
+          <mxGeometry height="36" width="470" x="490" as="geometry">
+            <mxRectangle height="36" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-14" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="31" width="960" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-15" parent="t16s-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="LISTEN_BACKLOG" vertex="1">
+          <mxGeometry height="31" width="230" as="geometry">
+            <mxRectangle height="31" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-16" parent="t16s-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="5" vertex="1">
+          <mxGeometry height="31" width="260" x="230" as="geometry">
+            <mxRectangle height="31" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-17" parent="t16s-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="受け入れる接続要求の数" vertex="1">
+          <mxGeometry height="31" width="470" x="490" as="geometry">
+            <mxRectangle height="31" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-18" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="960" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-19" parent="t16s-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SEND_MESSAGE" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-20" parent="t16s-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&quot;Hello, I'm the server.&quot;" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-21" parent="t16s-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="クライアントへ送信する文字列" vertex="1">
+          <mxGeometry height="36" width="470" x="490" as="geometry">
+            <mxRectangle height="36" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-22" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="960" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-23" parent="t16s-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SEND_MESSAGE_BYTE" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-24" parent="t16s-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="sizeof(SEND_MESSAGE)" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-25" parent="t16s-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="クライアントへ送信するデータのバイト数" vertex="1">
+          <mxGeometry height="36" width="470" x="490" as="geometry">
+            <mxRectangle height="36" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-26" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="31" width="960" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-27" parent="t16s-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="BUFFER_SIZE" vertex="1">
+          <mxGeometry height="31" width="230" as="geometry">
+            <mxRectangle height="31" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-28" parent="t16s-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="100" vertex="1">
+          <mxGeometry height="31" width="260" x="230" as="geometry">
+            <mxRectangle height="31" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-29" parent="t16s-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="受信文字列を格納する配列のサイズ" vertex="1">
+          <mxGeometry height="31" width="470" x="490" as="geometry">
+            <mxRectangle height="31" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-30" parent="t16s-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="960" y="253" as="geometry" />
+        </mxCell>
+        <mxCell id="t16s-外部情報-31" parent="t16s-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SYSTEM_CALL_ERROR" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-32" parent="t16s-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="-1" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16s-外部情報-33" parent="t16s-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="システムコールでエラーが発生した場合の戻り値" vertex="1">
+          <mxGeometry height="36" width="470" x="490" as="geometry">
+            <mxRectangle height="36" width="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

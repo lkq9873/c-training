@@ -1,0 +1,205 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6" pages="2">
+  <diagram name="main" id="JS-53z4LWbtb250i-0Rk">
+    <mxGraphModel dx="2108" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="svCs3v10NQS54q2g90E6-1" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="190" width="530" x="-780" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-2" parent="svCs3v10NQS54q2g90E6-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="48" width="530" as="geometry" />
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-3" parent="svCs3v10NQS54q2g90E6-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="関数名" vertex="1">
+          <mxGeometry height="48" width="83" as="geometry">
+            <mxRectangle height="48" width="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-4" parent="svCs3v10NQS54q2g90E6-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="main" vertex="1">
+          <mxGeometry height="48" width="447" x="83" as="geometry">
+            <mxRectangle height="48" width="447" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-5" parent="svCs3v10NQS54q2g90E6-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="47" width="530" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-6" parent="svCs3v10NQS54q2g90E6-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="引数" vertex="1">
+          <mxGeometry height="47" width="83" as="geometry">
+            <mxRectangle height="47" width="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-7" parent="svCs3v10NQS54q2g90E6-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="なし" vertex="1">
+          <mxGeometry height="47" width="447" x="83" as="geometry">
+            <mxRectangle height="47" width="447" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-8" parent="svCs3v10NQS54q2g90E6-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="48" width="530" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-9" parent="svCs3v10NQS54q2g90E6-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="戻り値" vertex="1">
+          <mxGeometry height="48" width="83" as="geometry">
+            <mxRectangle height="48" width="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-10" parent="svCs3v10NQS54q2g90E6-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int型&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EXIT_FAILURE&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;openエラーを正常に確認した場合&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;EXIT_SUCCESS&amp;nbsp; openエラーを発生させられなかった場合&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="447" x="83" as="geometry">
+            <mxRectangle height="48" width="447" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-11" parent="svCs3v10NQS54q2g90E6-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="47" width="530" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-12" parent="svCs3v10NQS54q2g90E6-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="機能概要&amp;nbsp;" vertex="1">
+          <mxGeometry height="47" width="83" as="geometry">
+            <mxRectangle height="47" width="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svCs3v10NQS54q2g90E6-13" parent="svCs3v10NQS54q2g90E6-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;" value="&amp;nbsp;存在しないファイルをopenし、エラー情報を出力する" vertex="1">
+          <mxGeometry height="47" width="447" x="83" as="geometry">
+            <mxRectangle height="47" width="447" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-1" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="-675" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-3" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FILE型ポインター変数&lt;br&gt;pfile_filePointerを定義する" vertex="1">
+          <mxGeometry height="70" width="180" x="-715" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-5" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="TARGET_FILE_PATH、FILE_OPEN_MODEを&lt;br&gt;引数に指定してfopen関数を呼び出し、&lt;br&gt;戻り値をpfile_filePointerに代入する" vertex="1">
+          <mxGeometry height="90" width="180" x="-715" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-6" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-7" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="pfile_filePointerは&lt;br&gt;NULLか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-750" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_SUCCESSを返す" vertex="1">
+          <mxGeometry height="70" width="180" x="-715" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-10" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-11" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&quot;fopen&quot;を引数に指定して&lt;br/&gt;perror関数を呼び出す" vertex="1">
+          <mxGeometry height="90" width="180" x="-443.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="-640" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="-502.9999999999999" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-14" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-15" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="printf(&quot;errno = %d\n&quot;, errno)" vertex="1">
+          <mxGeometry height="90" width="180" x="-443" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-16" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-17" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="pfile_filePointerを引数に指定して&lt;br/&gt;fclose関数を呼び出す&lt;br/&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="90" width="180" x="-715" y="662.25" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-18" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YeFrQ-oeeZvHcDo1nY4R-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-19" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="printf(&quot;ファイルが存在するため、fopenエラーを発生させることができませんでした。\n&quot;);" vertex="1">
+          <mxGeometry height="90" width="180" x="-715" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="-675" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-21" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="YeFrQ-oeeZvHcDo1nY4R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-22" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="YeFrQ-oeeZvHcDo1nY4R-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="70" width="180" x="-443" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="YeFrQ-oeeZvHcDo1nY4R-24" edge="1" parent="1" source="YeFrQ-oeeZvHcDo1nY4R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="YeFrQ-oeeZvHcDo1nY4R-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DNsjx4WieFna3P060Kma" name=" 外部情報">
+    <mxGraphModel dx="1938" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-14" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="109" width="749.9999999999998" x="-780" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-15" parent="hRd2FT-Q3I8fxtW4szp0-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="47" width="749.9999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-16" parent="hRd2FT-Q3I8fxtW4szp0-15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="マクロ名" vertex="1">
+          <mxGeometry height="47" width="200" as="geometry">
+            <mxRectangle height="47" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-17" parent="hRd2FT-Q3I8fxtW4szp0-15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="値" vertex="1">
+          <mxGeometry height="47" width="170" x="200" as="geometry">
+            <mxRectangle height="47" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-18" parent="hRd2FT-Q3I8fxtW4szp0-15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="意味" vertex="1">
+          <mxGeometry height="47" width="380" x="370" as="geometry">
+            <mxRectangle height="47" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-19" parent="hRd2FT-Q3I8fxtW4szp0-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="31" width="749.9999999999998" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-20" parent="hRd2FT-Q3I8fxtW4szp0-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;TARGET_FILE_PATH&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="200" as="geometry">
+            <mxRectangle height="31" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-21" parent="hRd2FT-Q3I8fxtW4szp0-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&quot;./111/111.c&quot;" vertex="1">
+          <mxGeometry height="31" width="170" x="200" as="geometry">
+            <mxRectangle height="31" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-22" parent="hRd2FT-Q3I8fxtW4szp0-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;" value="&lt;div style=&quot;&quot;&gt;存在しないファイルのパス&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="380" x="370" as="geometry">
+            <mxRectangle height="31" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-27" parent="hRd2FT-Q3I8fxtW4szp0-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="31" width="749.9999999999998" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-28" parent="hRd2FT-Q3I8fxtW4szp0-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="FILE_OPEN_MODE" vertex="1">
+          <mxGeometry height="31" width="200" as="geometry">
+            <mxRectangle height="31" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-29" parent="hRd2FT-Q3I8fxtW4szp0-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;397&quot; data-end=&quot;416&quot; data-col-size=&quot;sm&quot;&gt;&lt;code data-start=&quot;399&quot; data-end=&quot;415&quot;&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;416&quot; data-end=&quot;424&quot; data-col-size=&quot;sm&quot;&gt;&lt;code data-start=&quot;418&quot; data-end=&quot;423&quot;&gt;&quot;r&quot;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="31" width="170" x="200" as="geometry">
+            <mxRectangle height="31" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRd2FT-Q3I8fxtW4szp0-30" parent="hRd2FT-Q3I8fxtW4szp0-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ファイルを読み出しでオープンするモード" vertex="1">
+          <mxGeometry height="31" width="380" x="370" as="geometry">
+            <mxRectangle height="31" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usA8YHDPFQ-m-4dVf7Sn-1" parent="1" style="text;whiteSpace=wrap;" value="errnoは外部変数であり、エラー番号を格納する。&#xa;EXIT_FAILURE、EXIT_SUCCESSはstdlibで定義済みマクロである。" vertex="1">
+          <mxGeometry height="80" width="460" x="-780" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
