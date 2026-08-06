@@ -1,0 +1,696 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6" pages="2">
+  <diagram name="main" id="t16m-pg-0">
+    <mxGraphModel dx="1312" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rt-0" />
+        <mxCell id="ly-0" parent="rt-0" />
+        <mxCell id="t16m-main-1" parent="ly-0" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="250" width="760" x="-800" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-2" parent="t16m-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="45" width="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-3" parent="t16m-main-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="関数名" vertex="1">
+          <mxGeometry height="45" width="100" as="geometry">
+            <mxRectangle height="45" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-4" parent="t16m-main-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="main" vertex="1">
+          <mxGeometry height="45" width="660" x="100" as="geometry">
+            <mxRectangle height="45" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-5" parent="t16m-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="760" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-6" parent="t16m-main-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="引数" vertex="1">
+          <mxGeometry height="40" width="100" as="geometry">
+            <mxRectangle height="40" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-7" parent="t16m-main-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="なし" vertex="1">
+          <mxGeometry height="40" width="660" x="100" as="geometry">
+            <mxRectangle height="40" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-8" parent="t16m-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="760" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-9" parent="t16m-main-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="戻り値" vertex="1">
+          <mxGeometry height="90" width="100" as="geometry">
+            <mxRectangle height="90" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-10" parent="t16m-main-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="int&lt;br&gt;EXIT_SUCCESS：クライアントとの通信に成功した場合&lt;br&gt;EXIT_FAILURE：システムコールでエラーが発生した場合&lt;br&gt;※ nestを浅くするため複数個のreturnを使用している" vertex="1">
+          <mxGeometry height="90" width="660" x="100" as="geometry">
+            <mxRectangle height="90" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-11" parent="t16m-main-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="75" width="760" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-12" parent="t16m-main-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="機能概要&amp;nbsp;" vertex="1">
+          <mxGeometry height="75" width="100" as="geometry">
+            <mxRectangle height="75" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-13" parent="t16m-main-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="ソケットを作成して名前をつけ、接続要求を受け入れて文字列を受信し、&lt;br&gt;クライアントへ文字列を送信した後、ソケットをクローズする&lt;br&gt;（処理をすべてmain関数に記述した版）" vertex="1">
+          <mxGeometry height="75" width="660" x="100" as="geometry">
+            <mxRectangle height="75" width="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-14" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="-610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-15" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="サーバーのアドレス情報格納用の&lt;br&gt;struct sockaddr_in型変数&lt;br&gt;st_serverAddressを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-17" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="受信文字列格納用のchar型配列&lt;br&gt;ch_receiveBuffer[BUFFER_SIZE]を定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-19" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="ソケットのファイル記述子格納用のS4型変数&lt;br&gt;s4_socketDescriptorを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-21" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="接続用ソケットのファイル記述子格納用のS4型変数&lt;br&gt;s4_acceptDescriptorを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-23" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="システムコール戻り値格納用のS4型変数&lt;br&gt;s4_callResultを定義する" vertex="1">
+          <mxGeometry height="70" width="340" x="-730" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-25" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="-595" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-27" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="1" vertex="1">
+          <mxGeometry height="70" width="70" x="25" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-28" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="PF_INET、SOCK_STREAM、SOCKET_PROTOCOLを&lt;br&gt;引数に指定してsocketシステムコールを呼び出し、&lt;br&gt;戻り値をs4_socketDescriptorに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-30" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_socketDescriptorは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-32" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;socket&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="3610" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-34" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-35" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="3610" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-37" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="575.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-39" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="527.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-40" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="st_serverAddressのアドレス、0、&lt;br&gt;sizeof(st_serverAddress)を引数に指定して&lt;br&gt;memset関数を呼び出す" vertex="1">
+          <mxGeometry height="80" width="340" x="-110" y="665.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-42" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="st_serverAddress.sin_familyに&lt;br&gt;PF_INETを代入する" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="785.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-44" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="SERVER_PORTを引数に指定してhtons関数を呼び出し、&lt;br&gt;戻り値をst_serverAddress.sin_portに代入する" vertex="1">
+          <mxGeometry height="70" width="340" x="-110" y="885.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-46" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="INADDR_ANYを引数に指定してhtonl関数を呼び出し、&lt;br&gt;戻り値をst_serverAddress.sin_addr.s_addrに代入する" vertex="1">
+          <mxGeometry height="80" width="340" x="-110" y="995.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-48" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、st_serverAddressのアドレス、&lt;br&gt;sizeof(st_serverAddress)を引数に指定して&lt;br&gt;bindシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="100" width="340" x="-110" y="1115.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-50" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1255.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-52" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;bind&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="3210" y="1315.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-54" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1260.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-55" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="3210" y="1395.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-57" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="3210" y="1495.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-59" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="1395.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-61" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-62" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、LISTEN_BACKLOGを&lt;br&gt;引数に指定してlistenシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="1485.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-64" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1615.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-66" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;listen&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="2810" y="1675.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-68" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1620.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-69" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="2810" y="1755.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-71" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="2810" y="1855.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-73" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="1755.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-75" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="1707.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-76" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor、NULL、NULLを&lt;br&gt;引数に指定してacceptシステムコールを呼び出し、&lt;br&gt;戻り値をs4_acceptDescriptorに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="1845.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-78" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_acceptDescriptorは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="1980.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-80" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;accept&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="2410" y="2040.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-82" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="1985.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-83" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="2410" y="2120.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-85" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="2410" y="2220.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-87" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="2121" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-89" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="2073" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-90" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor、ch_receiveBuffer、&lt;br&gt;BUFFER_SIZE - 1を引数に指定して&lt;br&gt;readシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="2211" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-92" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="2346" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-94" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;read&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="2010" y="2406" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-96" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="2351" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-97" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="2010" y="2486" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-99" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="2010" y="2586" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-101" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="2010" y="2686" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-103" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="ch_receiveBuffer[s4_callResult]に&lt;br&gt;'\0'を格納する" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="2486.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-105" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="2438.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-106" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="printf(&quot;サーバーの受信文字列：%s\n&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ch_receiveBuffer)" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="2586.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-108" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor、SEND_MESSAGE、&lt;br&gt;SEND_MESSAGE_BYTEを引数に指定して&lt;br&gt;writeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="95" width="340" x="-110" y="2686.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-110" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="2821.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-112" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;write&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="1610" y="2881.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-114" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="2826.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-115" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="1610" y="2961.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-117" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="1610" y="3061.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-119" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="1610" y="3161.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-121" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="2961.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-123" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="2913.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-124" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_acceptDescriptorを引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="3051.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-126" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="3181.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-128" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;close&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="1210" y="3241.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-130" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="3186.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-131" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptor を引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値はVD型にキャストする" vertex="1">
+          <mxGeometry height="80" width="300" x="1210" y="3321.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-133" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="1210" y="3421.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-135" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="3321.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-137" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="3273.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-138" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="s4_socketDescriptorを引数に指定して&lt;br&gt;closeシステムコールを呼び出し、&lt;br&gt;戻り値をs4_callResultに代入する" vertex="1">
+          <mxGeometry height="90" width="340" x="-110" y="3411.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-140" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="s4_callResultは&lt;br&gt;SYSTEM_CALL_ERRORと等しいか" vertex="1">
+          <mxGeometry height="92.25" width="250" x="-65" y="3541.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-142" parent="ly-0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="perror(&quot;close&quot;)" vertex="1">
+          <mxGeometry height="60" width="300" x="810" y="3601.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-144" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="3546.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-145" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_FAILUREを返す" vertex="1">
+          <mxGeometry height="60" width="300" x="810" y="3681.75" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-147" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="DO NOTHING" vertex="1">
+          <mxGeometry height="50" width="340" x="-110" y="3682" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-149" parent="ly-0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="3634" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-150" parent="ly-0" style="rounded=0;whiteSpace=wrap;html=1;" value="EXIT_SUCCESSを返す" vertex="1">
+          <mxGeometry height="60" width="340" x="-110" y="3772" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-152" parent="ly-0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="10" y="4217" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-16" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-14" target="t16m-main-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-18" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-15" target="t16m-main-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-20" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-17" target="t16m-main-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-22" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-19" target="t16m-main-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-24" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-21" target="t16m-main-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-26" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-23" target="t16m-main-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-29" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-27" target="t16m-main-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-31" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-28" target="t16m-main-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-33" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-30" target="t16m-main-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-36" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-32" target="t16m-main-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-38" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-30" target="t16m-main-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-41" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-37" target="t16m-main-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-43" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-40" target="t16m-main-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-45" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-42" target="t16m-main-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-47" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-44" target="t16m-main-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-49" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-46" target="t16m-main-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-51" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-48" target="t16m-main-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-53" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-50" target="t16m-main-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-56" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-52" target="t16m-main-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-58" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-55" target="t16m-main-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-60" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-50" target="t16m-main-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-63" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-59" target="t16m-main-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-65" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-62" target="t16m-main-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-67" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-64" target="t16m-main-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-70" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-66" target="t16m-main-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-72" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-69" target="t16m-main-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-74" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-64" target="t16m-main-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-77" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-73" target="t16m-main-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-79" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-76" target="t16m-main-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-81" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-78" target="t16m-main-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-84" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-80" target="t16m-main-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-86" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-83" target="t16m-main-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-88" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-78" target="t16m-main-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-91" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-87" target="t16m-main-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-93" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-90" target="t16m-main-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-95" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-92" target="t16m-main-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-98" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-94" target="t16m-main-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-100" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-97" target="t16m-main-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-102" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-99" target="t16m-main-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-104" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-92" target="t16m-main-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-107" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-103" target="t16m-main-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-109" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-106" target="t16m-main-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-111" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-108" target="t16m-main-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-113" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-110" target="t16m-main-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-116" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-112" target="t16m-main-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-118" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-115" target="t16m-main-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-120" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-117" target="t16m-main-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-122" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-110" target="t16m-main-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-125" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-121" target="t16m-main-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-127" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-124" target="t16m-main-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-129" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-126" target="t16m-main-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-132" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-128" target="t16m-main-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-134" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-131" target="t16m-main-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-136" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-126" target="t16m-main-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-139" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-135" target="t16m-main-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-141" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-138" target="t16m-main-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-143" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-140" target="t16m-main-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-146" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-142" target="t16m-main-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-148" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-140" target="t16m-main-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-151" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="t16m-main-147" target="t16m-main-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-153" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-150" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-main-154" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-35" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3760" y="3862" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-155" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-57" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="3882" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-156" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-71" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2960" y="3902" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-157" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-85" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560" y="3922" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-158" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-101" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160" y="3942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-159" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-119" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1760" y="3962" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-160" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-133" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="3982" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-main-161" parent="ly-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="t16m-main-145" target="t16m-main-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="4002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name=" 外部情報" id="t16m-pg-1">
+    <mxGraphModel dx="1312" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rt-1" />
+        <mxCell id="ly-1" parent="rt-1" />
+        <mxCell id="t16m-外部情報-1" parent="ly-1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+          <mxGeometry height="297" width="940" x="-800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-2" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="47" width="940" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-3" parent="t16m-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="マクロ名" vertex="1">
+          <mxGeometry height="47" width="230" as="geometry">
+            <mxRectangle height="47" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-4" parent="t16m-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="値" vertex="1">
+          <mxGeometry height="47" width="260" x="230" as="geometry">
+            <mxRectangle height="47" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-5" parent="t16m-外部情報-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="意味" vertex="1">
+          <mxGeometry height="47" width="450" x="490" as="geometry">
+            <mxRectangle height="47" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-6" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="940" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-7" parent="t16m-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SERVER_PORT" vertex="1">
+          <mxGeometry height="40" width="230" as="geometry">
+            <mxRectangle height="40" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-8" parent="t16m-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="49152" vertex="1">
+          <mxGeometry height="40" width="260" x="230" as="geometry">
+            <mxRectangle height="40" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-9" parent="t16m-外部情報-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="サーバーのポート番号（別途指示される番号に変更すること）" vertex="1">
+          <mxGeometry height="40" width="450" x="490" as="geometry">
+            <mxRectangle height="40" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-10" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="940" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-11" parent="t16m-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SOCKET_PROTOCOL" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-12" parent="t16m-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="0" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-13" parent="t16m-外部情報-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="UNIXが適切なプロトコルを選択する" vertex="1">
+          <mxGeometry height="36" width="450" x="490" as="geometry">
+            <mxRectangle height="36" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-14" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="31" width="940" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-15" parent="t16m-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="LISTEN_BACKLOG" vertex="1">
+          <mxGeometry height="31" width="230" as="geometry">
+            <mxRectangle height="31" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-16" parent="t16m-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="5" vertex="1">
+          <mxGeometry height="31" width="260" x="230" as="geometry">
+            <mxRectangle height="31" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-17" parent="t16m-外部情報-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="受け入れる接続要求の数" vertex="1">
+          <mxGeometry height="31" width="450" x="490" as="geometry">
+            <mxRectangle height="31" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-18" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="940" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-19" parent="t16m-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SEND_MESSAGE" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-20" parent="t16m-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&quot;Hello, I'm the server.&quot;" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-21" parent="t16m-外部情報-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="クライアントへ送信する文字列" vertex="1">
+          <mxGeometry height="36" width="450" x="490" as="geometry">
+            <mxRectangle height="36" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-22" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="940" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-23" parent="t16m-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SEND_MESSAGE_BYTE" vertex="1">
+          <mxGeometry height="40" width="230" as="geometry">
+            <mxRectangle height="40" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-24" parent="t16m-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="sizeof(SEND_MESSAGE) - 1" vertex="1">
+          <mxGeometry height="40" width="260" x="230" as="geometry">
+            <mxRectangle height="40" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-25" parent="t16m-外部情報-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="上記の送信バイト数（終端のヌル文字を含まない）" vertex="1">
+          <mxGeometry height="40" width="450" x="490" as="geometry">
+            <mxRectangle height="40" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-26" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="31" width="940" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-27" parent="t16m-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="BUFFER_SIZE" vertex="1">
+          <mxGeometry height="31" width="230" as="geometry">
+            <mxRectangle height="31" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-28" parent="t16m-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="100" vertex="1">
+          <mxGeometry height="31" width="260" x="230" as="geometry">
+            <mxRectangle height="31" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-29" parent="t16m-外部情報-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="受信文字列を格納する配列のサイズ" vertex="1">
+          <mxGeometry height="31" width="450" x="490" as="geometry">
+            <mxRectangle height="31" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-30" parent="t16m-外部情報-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="36" width="940" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="t16m-外部情報-31" parent="t16m-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="SYSTEM_CALL_ERROR" vertex="1">
+          <mxGeometry height="36" width="230" as="geometry">
+            <mxRectangle height="36" width="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-32" parent="t16m-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="-1" vertex="1">
+          <mxGeometry height="36" width="260" x="230" as="geometry">
+            <mxRectangle height="36" width="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16m-外部情報-33" parent="t16m-外部情報-30" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="システムコールでエラーが発生した場合の戻り値" vertex="1">
+          <mxGeometry height="36" width="450" x="490" as="geometry">
+            <mxRectangle height="36" width="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

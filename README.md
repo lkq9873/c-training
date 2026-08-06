@@ -40,6 +40,15 @@ gcc -Wall -std=c90 -pedantic-errors -I../include -o task13 task13.c
 | 15 | UNIX ドメインソケット | `socket` / `bind` / `listen` / `accept` / `connect` | `task15_server.c` / `task15_client.c` |
 | 16 | INET ドメインソケット | 同上 + `htons` / `htonl` / `inet_addr` | `task16_server.c` / `task16_client.c` |
 
+### 課題15・16 のサーバーは 2 種類ある
+
+動作は同一で、処理の分け方だけが異なります。
+
+| ファイル | 構成 |
+| --- | --- |
+| `task15_server.c` / `task16_server.c` | 通信処理を自作関数 `s4_CommunicateWithClient` に分割（main は複数 return、自作関数は入口1個・出口1個） |
+| `task15_server_mainonly.c` / `task16_server_mainonly.c` | 処理をすべて main 関数に記述（複数 return のみ） |
+
 ## 実行方法（2 プログラム構成のもの）
 
 いずれも **受信側 / サーバー側を先に起動**します。先に起動した側は相手が接続するまでブロックします。
