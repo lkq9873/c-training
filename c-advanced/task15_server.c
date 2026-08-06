@@ -1,7 +1,7 @@
 /*==================================================*
- * @file      task15_server_Rev_0_1.c
+ * @file      task15_server_Rev_0_2.c
  * @brief     UNIXドメインのストリームソケットを使用したデータ受信および送信（サーバー）
- * @version   0.1
+ * @version   0.2
  * @date      2026.08.02
  * @author    KAIQUN LUO
  *==================================================*/
@@ -20,16 +20,16 @@
  * 設計方針
  *==================================================*
  * 【エラー発生時の方針】
- * 前提が成立せず処理を続行できない場合（socketの失敗後のbind等）は打ち切り、
- * 続行可能な場合（受信の失敗後の送信）は継続する。継続とするのは、
- * 一方が先に終了すると相手のwriteが読み手のいないソケットへの書き込みと
- * なりSIGPIPEで異常終了してしまうためである。
- * 後処理（close、unlink）は必ず実行する。
+ * エラーを検出した場合は、それまでに獲得した資源の後始末（ソケットの
+ * クローズおよび削除）を行ってからその場でEXIT_FAILUREを返す。
+ *
+ * 【複数個のreturnについて】
+ * main関数は深い分岐のnestを避けるため複数個のreturnを使用する。
+ * 自作関数は入口1個・出口1個とするため、戻り値を変数に保持して
+ * 関数末尾で1個のreturnにより返す。
  *
  * 【文字列の終端】
- * 送信側は終端のヌル文字を含めて送信し、受信側は受信データの最終バイトが
- * ヌル文字であることを確認する。これにより、受信データがバッファサイズを
- * 超えて途中で切れた場合を検出することができる。
+ * 終端のヌル文字は送信せず、受信側でバッファに付与する。
  *==================================================*/
 
 /*==================================================*
@@ -43,7 +43,7 @@
  * 送信文字列
  *==================================================*/
 #define SEND_MESSAGE        ("Hello, I'm the server.")  /* クライアントへ送信する文字列 */
-#define SEND_MESSAGE_BYTE   (sizeof(SEND_MESSAGE))  /* 上記の送信バイト数（終端のヌル文字を含む） */
+#define SEND_MESSAGE_BYTE   (sizeof(SEND_MESSAGE) - 1)  /* 上記の送信バイト数（終端のヌル文字を含まない） */
 
 /*==================================================*
  * バッファサイズ
@@ -65,76 +65,97 @@ S4 s4_CommunicateWithClient(S4 s4_socketDescriptor);
  *          クライアントとの通信処理を呼び出し、ソケットを削除する
  * @param   なし
  * @retval  int  EXIT_SUCCESS  クライアントとの通信に成功した場合
- *               EXIT_FAILURE  システムコールでエラーが発生した場合
+ *               EXIT_FAILURE  システムコールまたは通信処理でエラーが発生した場合
  * @note    本プログラムを起動した後にクライアントプログラムを起動すること。
  *==================================================*/
 int main(void)
 {
     struct sockaddr_un st_serverAddress;
     S4 s4_socketDescriptor;
-    S4 s4_bindResult;
-    S4 s4_listenResult;
-    S4 s4_unlinkResult;
-    S4 s4_closeResult;
-    S4 s4_exitStatus = EXIT_SUCCESS;
+    S4 s4_callResult;
 
     s4_socketDescriptor = socket(PF_UNIX, SOCK_STREAM, SOCKET_PROTOCOL);
 
     if (s4_socketDescriptor == SYSTEM_CALL_ERROR) {
         perror("socket");
 
-        s4_exitStatus = EXIT_FAILURE;
+        return EXIT_FAILURE;
     } else {
-        memset(&st_serverAddress, 0, sizeof(st_serverAddress));
-
-        st_serverAddress.sun_family = PF_UNIX;
-
-        strcpy(st_serverAddress.sun_path, SOCKET_PATH);
-
-        s4_bindResult = bind(s4_socketDescriptor,
-                             (struct sockaddr *)&st_serverAddress,
-                             sizeof(st_serverAddress));
-
-        if (s4_bindResult == SYSTEM_CALL_ERROR) {
-            perror("bind");
-
-            s4_exitStatus = EXIT_FAILURE;
-        } else {
-            s4_listenResult = listen(s4_socketDescriptor, LISTEN_BACKLOG);
-
-            if (s4_listenResult == SYSTEM_CALL_ERROR) {
-                perror("listen");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else {
-                s4_exitStatus = s4_CommunicateWithClient(s4_socketDescriptor);
-            }
-
-            /* bindによって作成されたソケットのファイルはプロセスが終了しても
-               存在し続けるため、使用後に削除する。 */
-            s4_unlinkResult = unlink(SOCKET_PATH);
-
-            if (s4_unlinkResult == SYSTEM_CALL_ERROR) {
-                perror("unlink");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else {
-                /* DO NOTHING */
-            }
-        }
-
-        s4_closeResult = close(s4_socketDescriptor);
-
-        if (s4_closeResult == SYSTEM_CALL_ERROR) {
-            perror("close");
-
-            s4_exitStatus = EXIT_FAILURE;
-        } else {
-            /* DO NOTHING */
-        }
+        /* DO NOTHING */
     }
 
-    return s4_exitStatus;
+    memset(&st_serverAddress, 0, sizeof(st_serverAddress));
+
+    st_serverAddress.sun_family = PF_UNIX;
+
+    strcpy(st_serverAddress.sun_path, SOCKET_PATH);
+
+    s4_callResult = bind(s4_socketDescriptor,
+                         (struct sockaddr *)&st_serverAddress,
+                         sizeof(st_serverAddress));
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("bind");
+
+        /* bindに失敗した場合はソケットのファイルが作成されないため、
+           クローズのみを行う。 */
+        (VD)close(s4_socketDescriptor);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    s4_callResult = listen(s4_socketDescriptor, LISTEN_BACKLOG);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("listen");
+
+        (VD)close(s4_socketDescriptor);
+        (VD)unlink(SOCKET_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    /* 本関数内でperrorを実行済みのため、ここではエラーメッセージを出力しない。 */
+    s4_callResult = s4_CommunicateWithClient(s4_socketDescriptor);
+
+    if (s4_callResult == EXIT_FAILURE) {
+        (VD)close(s4_socketDescriptor);
+        (VD)unlink(SOCKET_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    s4_callResult = close(s4_socketDescriptor);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("close");
+
+        (VD)unlink(SOCKET_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    /* bindによって作成されたソケットのファイルはプロセスが終了しても
+       存在し続けるため、使用後に削除する。 */
+    s4_callResult = unlink(SOCKET_PATH);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("unlink");
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    return EXIT_SUCCESS;
 }
 
 /*==================================================*
@@ -143,14 +164,14 @@ int main(void)
  * @param[in]   S4 s4_socketDescriptor  接続要求を待っているソケットのファイル記述子
  * @retval  S4  EXIT_SUCCESS  文字列の受信および送信に成功した場合
  *              EXIT_FAILURE  システムコールでエラーが発生した場合
+ * @note    入口1個・出口1個とするため、戻り値をs4_returnValueに保持し、
+ *          関数末尾で1個のreturnにより返す。
  *==================================================*/
 S4 s4_CommunicateWithClient(S4 s4_socketDescriptor)
 {
     char ch_receiveBuffer[BUFFER_SIZE];
     S4 s4_acceptDescriptor;
-    S4 s4_readResult;
-    S4 s4_writeResult;
-    S4 s4_closeResult;
+    S4 s4_callResult;
     S4 s4_returnValue = EXIT_SUCCESS;
 
     /* クライアントのアドレス情報は使用しないため、第2引数と第3引数にはNULLを指定する。 */
@@ -161,39 +182,32 @@ S4 s4_CommunicateWithClient(S4 s4_socketDescriptor)
 
         s4_returnValue = EXIT_FAILURE;
     } else {
-        s4_readResult = read(s4_acceptDescriptor, ch_receiveBuffer, BUFFER_SIZE);
+        s4_callResult = read(s4_acceptDescriptor, ch_receiveBuffer, BUFFER_SIZE - 1);
 
-        /* s4_readResultが0の場合にch_receiveBuffer[s4_readResult - 1]を参照すると
-           範囲外アクセスとなるため、0の判定を終端の判定より先に行う。 */
-        if (s4_readResult == SYSTEM_CALL_ERROR) {
+        if (s4_callResult == SYSTEM_CALL_ERROR) {
             perror("read");
 
             s4_returnValue = EXIT_FAILURE;
-        } else if (s4_readResult == 0) {
-            printf("クライアントがソケットをクローズしました\n");
-
-            s4_returnValue = EXIT_FAILURE;
-        } else if (ch_receiveBuffer[s4_readResult - 1] != '\0') {
-            printf("受信文字列が終端されていません\n");
-
-            s4_returnValue = EXIT_FAILURE;
         } else {
+            ch_receiveBuffer[s4_callResult] = '\0';
+
             printf("サーバーの受信文字列：%s\n", ch_receiveBuffer);
+
+            s4_callResult = write(s4_acceptDescriptor, SEND_MESSAGE, SEND_MESSAGE_BYTE);
+
+            if (s4_callResult == SYSTEM_CALL_ERROR) {
+                perror("write");
+
+                s4_returnValue = EXIT_FAILURE;
+            } else {
+                /* DO NOTHING */
+            }
         }
 
-        s4_writeResult = write(s4_acceptDescriptor, SEND_MESSAGE, SEND_MESSAGE_BYTE);
+        /* 受信または送信に失敗した場合も、接続用のソケットは必ずクローズする。 */
+        s4_callResult = close(s4_acceptDescriptor);
 
-        if (s4_writeResult == SYSTEM_CALL_ERROR) {
-            perror("write");
-
-            s4_returnValue = EXIT_FAILURE;
-        } else {
-            /* DO NOTHING */
-        }
-
-        s4_closeResult = close(s4_acceptDescriptor);
-
-        if (s4_closeResult == SYSTEM_CALL_ERROR) {
+        if (s4_callResult == SYSTEM_CALL_ERROR) {
             perror("close");
 
             s4_returnValue = EXIT_FAILURE;

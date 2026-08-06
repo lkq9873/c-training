@@ -1,7 +1,7 @@
 /*==================================================*
- * @file      task14_receive_Rev_0_1.c
+ * @file      task14_receive_Rev_0_2.c
  * @brief     名前つきパイプを使用したデータ受信
- * @version   0.1
+ * @version   0.2
  * @date      2026.08.02
  * @author    KAIQUN LUO
  *==================================================*/
@@ -19,13 +19,19 @@
  * 設計方針
  *==================================================*
  * 【エラー発生時の方針】
- * 前提が成立せず処理を続行できない場合（mkfifoの失敗後のopen等）は打ち切り、
- * 後処理（close、unlink）は必ず実行する。
+ * エラーを検出した場合は、それまでに獲得した資源の後始末（名前つきパイプの
+ * クローズおよび削除）を行ってからその場でEXIT_FAILUREを返し、
+ * 以降の処理は行わない。
+ *
+ * 【複数個のreturnについて】
+ * 深い分岐のnestを避けるため、main関数内で複数個のreturnを使用する。
+ * 規約「複数個のreturnを使用した方が可読性が高まる場合に限り許可する」
+ * に基づく。フロー図にも複数個のreturnを明記している。
  *
  * 【文字列の終端】
- * 送信側は終端のヌル文字を含めて送信し、受信側は受信データの最終バイトが
- * ヌル文字であることを確認する。これにより、受信データがバッファサイズを
- * 超えて途中で切れた場合を検出することができる。
+ * 送信側は終端のヌル文字を送信しないため、受信側でバッファに付与する。
+ * このためreadで読み出すバイト数はBUFFER_SIZEから1を減じた値とし、
+ * 終端のヌル文字を格納する領域を確保する。
  *==================================================*/
 
 /*==================================================*
@@ -57,69 +63,71 @@
 int main(void)
 {
     char ch_receiveBuffer[BUFFER_SIZE];
-    S4 s4_mkfifoResult;
     S4 s4_fileDescriptor;
-    S4 s4_readResult;
-    S4 s4_closeResult;
-    S4 s4_unlinkResult;
-    S4 s4_exitStatus = EXIT_SUCCESS;
+    S4 s4_callResult;
 
-    s4_mkfifoResult = mkfifo(FIFO_PATH, FIFO_MODE);
+    s4_callResult = mkfifo(FIFO_PATH, FIFO_MODE);
 
-    if (s4_mkfifoResult == SYSTEM_CALL_ERROR) {
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
         perror("mkfifo");
 
-        s4_exitStatus = EXIT_FAILURE;
+        return EXIT_FAILURE;
     } else {
-        s4_fileDescriptor = open(FIFO_PATH, O_RDONLY);
-
-        if (s4_fileDescriptor == SYSTEM_CALL_ERROR) {
-            perror("open");
-
-            s4_exitStatus = EXIT_FAILURE;
-        } else {
-            s4_readResult = read(s4_fileDescriptor, ch_receiveBuffer, BUFFER_SIZE);
-
-            /* s4_readResultが0の場合にch_receiveBuffer[s4_readResult - 1]を参照すると
-               範囲外アクセスとなるため、0の判定を終端の判定より先に行う。 */
-            if (s4_readResult == SYSTEM_CALL_ERROR) {
-                perror("read");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else if (s4_readResult == 0) {
-                printf("送信側が名前つきパイプをクローズしました\n");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else if (ch_receiveBuffer[s4_readResult - 1] != '\0') {
-                printf("受信文字列が終端されていません\n");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else {
-                printf("受信文字列：%s\n", ch_receiveBuffer);
-            }
-
-            s4_closeResult = close(s4_fileDescriptor);
-
-            if (s4_closeResult == SYSTEM_CALL_ERROR) {
-                perror("close");
-
-                s4_exitStatus = EXIT_FAILURE;
-            } else {
-                /* DO NOTHING */
-            }
-        }
-
-        /* 名前つきパイプはプロセスが終了しても存在し続けるため、使用後に削除する。 */
-        s4_unlinkResult = unlink(FIFO_PATH);
-
-        if (s4_unlinkResult == SYSTEM_CALL_ERROR) {
-            perror("unlink");
-
-            s4_exitStatus = EXIT_FAILURE;
-        } else {
-            /* DO NOTHING */
-        }
+        /* DO NOTHING */
     }
 
-    return s4_exitStatus;
+    s4_fileDescriptor = open(FIFO_PATH, O_RDONLY);
+
+    if (s4_fileDescriptor == SYSTEM_CALL_ERROR) {
+        perror("open");
+
+        /* 作成済みの名前つきパイプを削除してから戻る。 */
+        (VD)unlink(FIFO_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    s4_callResult = read(s4_fileDescriptor, ch_receiveBuffer, BUFFER_SIZE - 1);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("read");
+
+        /* オープン済みの名前つきパイプをクローズし、削除してから戻る。 */
+        (VD)close(s4_fileDescriptor);
+        (VD)unlink(FIFO_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        ch_receiveBuffer[s4_callResult] = '\0';
+
+        printf("受信文字列：%s\n", ch_receiveBuffer);
+    }
+
+    s4_callResult = close(s4_fileDescriptor);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("close");
+
+        /* 作成済みの名前つきパイプを削除してから戻る。 */
+        (VD)unlink(FIFO_PATH);
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    /* 名前つきパイプはプロセスが終了しても存在し続けるため、使用後に削除する。 */
+    s4_callResult = unlink(FIFO_PATH);
+
+    if (s4_callResult == SYSTEM_CALL_ERROR) {
+        perror("unlink");
+
+        return EXIT_FAILURE;
+    } else {
+        /* DO NOTHING */
+    }
+
+    return EXIT_SUCCESS;
 }
