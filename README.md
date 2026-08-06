@@ -69,6 +69,10 @@ sleep 1
 
 `c-advanced/summary_zh.md` に、学習内容と各課題の考え方を中国語でまとめています。
 
+## メモ
+
+- [vscode-ssh-setup.md](vscode-ssh-setup.md) — 配布された pem ファイルを使って VS Code から Amazon Linux サーバーへ SSH 接続する手順
+
 ## 注意
 
 - **研修教材および社内コーディング規約はこのリポジトリに含めていません**（社内資料のため）
